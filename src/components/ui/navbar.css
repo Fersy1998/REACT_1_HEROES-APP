@@ -1,0 +1,11 @@
+.nav-link {
+    padding: 0;
+}
+.navbar-expand-sm .navbar-nav .nav-link, .active {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+.navbar-expand-sm:hover,  .navbar-nav .nav-link:hover, .active:hover{
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}

@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en SearhcScreen.js should Batman and the input with queryString value 1`] = `
+<div>
+  <h1>
+    Búsqueda
+  </h1>
+   
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    />
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="searchElement"
+        onChange={[Function]}
+        placeholder="buscar un héroe"
+        type="text"
+        value="batman"
+      />
+      <button
+        className="btn btn-primary mt-5"
+        onClick={[Function]}
+        type="submit"
+      >
+        Buscar...
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-7 w-100 h-100"
+  >
+    <h4>
+      Resultados
+    </h4>
+    <hr />
+    <div
+      className="row"
+    >
+      <div
+        className="col col-3 animate__animated animate__backInLeft"
+        key="dc-batman"
+      >
+        <div
+          className="card  "
+          style={
+            Object {
+              "width": "auto",
+            }
+          }
+        >
+          <img
+            alt="Batman"
+            className="card-img-top"
+            src="/assets/dc-batman.jpg"
+          />
+          <div
+            className="card-body"
+          >
+            <h5
+              className="card-title"
+            >
+              Batman
+            </h5>
+            <p
+              className="card-text"
+            >
+              Detective Comics #27
+            </p>
+            <p
+              className="card-text"
+            >
+              DC Comics
+            </p>
+            <p
+              className="card-text"
+            >
+              Bruce Wayne
+            </p>
+            <a
+              className="btn btn-primary"
+              href="/hero/dc-batman"
+              onClick={[Function]}
+            >
+              Ver más
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en SearhcScreen.js should show an error if hero isn´t found 1`] = `
+<div>
+  <h1>
+    Búsqueda
+  </h1>
+   
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    />
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="searchElement"
+        onChange={[Function]}
+        placeholder="buscar un héroe"
+        type="text"
+        value="batman34535"
+      />
+      <button
+        className="btn btn-primary mt-5"
+        onClick={[Function]}
+        type="submit"
+      >
+        Buscar...
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-7 w-100 h-100"
+  >
+    <h4>
+      Resultados
+    </h4>
+    <hr />
+    <div
+      className="row"
+    >
+      <div
+        className="alert alert-danger"
+      >
+        Sin resultados para la búsqueda 
+        batman34535
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en SearhcScreen.js should shows corrrectly with default values 1`] = `
+<div>
+  <h1>
+    Búsqueda
+  </h1>
+   
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    />
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="searchElement"
+        onChange={[Function]}
+        placeholder="buscar un héroe"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn btn-primary mt-5"
+        onClick={[Function]}
+        type="submit"
+      >
+        Buscar...
+      </button>
+    </form>
+  </div>
+  <div
+    className="col-7 w-100 h-100"
+  >
+    <h4>
+      Resultados
+    </h4>
+    <hr />
+    <div
+      className="row"
+    >
+      <div
+        className="alert alert-info"
+      >
+        Buscar un héroe
+      </div>
+    </div>
+  </div>
+</div>
+`;
